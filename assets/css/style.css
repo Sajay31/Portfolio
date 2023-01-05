@@ -1,0 +1,138 @@
+nav {
+    background: rgb(61, 60, 60);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;   
+}
+
+nav h1 {
+    background: rgb(133, 174, 174);
+    margin-left: 20px;
+    padding: 10px;
+    color: rgb(61, 60, 60);
+    border-radius: 8px;
+    font-size: 2.2rem;
+}
+
+nav button {
+    background: transparent;
+    color: rgb(133,174,174);
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 4px solid ;
+    margin: 10px;
+}
+
+header {
+    height: 25vh;
+    border: 2px solid black;
+    background: repeating-linear-gradient(-35deg,#17375c 25px,#2f2929 71px,#ada8a8 80px);
+    position:relative;
+}
+
+header h2 {
+    position: absolute;
+    bottom: -10px;
+    right: 80px;
+    color: teal;
+    background: black;
+    padding: 10px;
+    border: 4px solid red;
+    border-radius: 12px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+.col1 {
+    width: 30%;
+    border-right: 4px solid teal;
+}
+
+.col1 h1 {
+    font-size: 3rem;
+    text-align: right;
+    margin-right: 20px;
+    color: teal;
+}
+
+.col2 {
+    width: 65%;
+}
+
+.apps {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.app:first-child {
+    width: 100%;
+    height: 60vh;
+}
+
+.app {
+
+    position: relative;
+    width: 48%;
+    height: 30vh;
+    border: 4px solid teal;
+    margin: 5px auto;
+}
+
+.app:hover {
+    filter:brightness(1.3)
+}
+
+.app img {
+   
+    width: 100%;
+    height: 100%;
+}
+
+.app div {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: white;
+    padding: 0 5px;
+    border-radius: 8px;
+}
+.contact{
+display: flex;
+justify-content:  space-around;
+align-items: center;
+}
+
+.contact a {
+    text-decoration: none;
+    border-bottom: 4px solid teal;
+    color: teal;
+    font-size: 1.4rem;
+    font-weight: 900;
+    font-family: cursive, Helvetica, sans-serif;
+}
+
+#resume {
+    margin: 40px 20vh;
+    text-align: justify;
+    border: 4px solid black;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+#resume h1 {
+    text-align: center;
+}
+
+header nav a {
+    text-decoration: none;
+}
